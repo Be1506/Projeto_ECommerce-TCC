@@ -10,13 +10,13 @@ O desenvolvimento do projeto ocorreu em um prazo reduzido de apenas duas semanas
 
 Participantes do Projeto
 
-Messias
+Breno
 
 Hugo
 
 Alisson
 
-Breno
+Messias
 
 Gabriel
 
