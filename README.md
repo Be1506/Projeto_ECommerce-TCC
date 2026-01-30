@@ -1,14 +1,110 @@
-Projeto E-commerce – TCC do Curso de Informática
+🛒 E-commerce Web Application — Projeto Acadêmico (TCC Senac)
 
-Este repositório apresenta um projeto de E-commerce desenvolvido como Trabalho de Conclusão de Curso (TCC) no Senac. O objetivo principal do projeto foi aplicar, de forma prática, os conhecimentos adquiridos ao longo do curso, simulando o funcionamento de um sistema de vendas online com área administrativa integrada à aplicação web.
+Aplicação de E-commerce desenvolvida como Trabalho de Conclusão de Curso (TCC) no Senac, com foco na construção de um sistema web integrado, simulando um cenário real de vendas online com área administrativa e aplicação web conectadas a um banco de dados relacional.
 
-O sistema é dividido em duas partes principais. A primeira é a parte administrativa, desenvolvida em C# (C-Sharp). Nessa camada, o administrador é responsável por cadastrar, editar e gerenciar os produtos do e-commerce. Essas informações são enviadas para o banco de dados MySQL, que funciona como a base central do sistema. A partir desse banco, os dados são consumidos pela aplicação web, transformando os cadastros em produtos exibidos no site.
+O projeto demonstra conhecimentos práticos em back-end, front-end, integração com banco de dados e organização de sistemas web.
 
-A segunda parte do projeto é a aplicação web, desenvolvida utilizando PHP, JavaScript, HTML, CSS e Bootstrap. Essa camada é responsável pela exibição dos produtos, layout responsivo, navegação entre páginas e experiência do usuário, simulando o funcionamento real de um e-commerce.
+🚀 Tecnologias Utilizadas
 
-O desenvolvimento do projeto ocorreu em um prazo reduzido de apenas duas semanas, devido a uma mudança na organização estrutural do curso, o que impactou diretamente o tempo disponível para planejamento e implementação. Por esse motivo, algumas funcionalidades — especialmente na parte desenvolvida em C# — não foram totalmente finalizadas, mas o projeto representa a entrega oficial do TCC e um bom resultado considerando o tempo disponível e o fato de ser o primeiro projeto completo desenvolvido pela equipe.
+Back-end / Web
 
-Participantes do Projeto
+PHP
+
+JavaScript
+
+Front-end
+
+HTML5
+
+CSS3
+
+Bootstrap
+
+Desktop / Administrativo
+
+C# (C-Sharp)
+
+Banco de Dados
+
+MySQL
+
+Ambiente
+
+XAMPP (Apache + MySQL)
+
+🧠 O que este projeto demonstra
+
+Estruturação de um sistema web completo
+
+Integração entre aplicação web, aplicação desktop e banco de dados
+
+CRUD de produtos (cadastro, edição e exibição)
+
+Consumo de dados via banco MySQL
+
+Desenvolvimento de interface responsiva
+
+Organização de código e separação de responsabilidades
+
+Trabalho em equipe e entrega dentro de prazo reduzido
+
+🧩 Arquitetura do Sistema
+
+O sistema foi dividido em duas camadas principais:
+
+🔐 Painel Administrativo (C#)
+
+Aplicação responsável pelo gerenciamento dos produtos do e-commerce:
+
+Cadastro de novos produtos
+
+Edição e atualização de informações
+
+Persistência dos dados em banco MySQL
+
+Essa camada simula o painel administrativo de um e-commerce real.
+
+🌐 Aplicação Web (PHP)
+
+Responsável pela exibição e interação com o usuário final:
+
+Listagem dinâmica de produtos
+
+Layout responsivo
+
+Navegação entre páginas
+
+Simulação da experiência de um e-commerce
+
+Os dados exibidos no site são consumidos diretamente do banco MySQL, alimentado pelo painel administrativo.
+
+⏱️ Contexto do Desenvolvimento
+
+O projeto foi desenvolvido em um prazo de aproximadamente duas semanas, devido a uma reorganização estrutural do curso.
+
+Mesmo com o tempo limitado, foi possível entregar:
+
+Um sistema funcional
+
+Integração completa entre as camadas
+
+Uma base sólida para futuras evoluções
+
+Algumas funcionalidades, especialmente no painel administrativo em C#, não foram totalmente finalizadas, o que foi considerado no contexto acadêmico do projeto.
+
+▶️ Como executar o projeto localmente
+
+Instale o XAMPP
+
+Inicie os serviços Apache e MySQL
+
+Copie a pasta do projeto para o diretório htdocs
+
+Importe o banco de dados MySQL utilizando o arquivo disponível no repositório
+
+Acesse a aplicação pelo navegador
+
+👥 Equipe
 
 Breno
 
@@ -16,18 +112,6 @@ Hugo
 
 Alisson
 
-Messias
+📌 Observação
 
-Gabriel
-
-
-Para quem deseja testar o projeto localmente, recomenda-se:
-
-Baixar e instalar o XAMPP;
-
-Iniciar os serviços Apache e MySQL;
-
-Colocar a pasta do projeto e-commerce dentro do diretório htdocs;
-
-Importar o banco de dados MySQL conforme o arquivo disponibilizado no projeto.
-
+Projeto desenvolvido com finalidade educacional, servindo como demonstração prática de habilidades técnicas em desenvolvimento web e integração de sistemas.
