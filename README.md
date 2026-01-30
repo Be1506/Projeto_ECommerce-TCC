@@ -4,6 +4,7 @@ Aplicação de E-commerce desenvolvida como Trabalho de Conclusão de Curso (TCC
 
 O projeto demonstra conhecimentos práticos em back-end, front-end, integração com banco de dados e organização de sistemas web.
 
+
 🚀 Tecnologias Utilizadas
 
 Back-end / Web
@@ -32,6 +33,7 @@ Ambiente
 
 XAMPP (Apache + MySQL)
 
+
 🧠 O que este projeto demonstra
 
 Estruturação de um sistema web completo
@@ -48,9 +50,11 @@ Organização de código e separação de responsabilidades
 
 Trabalho em equipe e entrega dentro de prazo reduzido
 
+
 🧩 Arquitetura do Sistema
 
 O sistema foi dividido em duas camadas principais:
+
 
 🔐 Painel Administrativo (C#)
 
@@ -63,6 +67,7 @@ Edição e atualização de informações
 Persistência dos dados em banco MySQL
 
 Essa camada simula o painel administrativo de um e-commerce real.
+
 
 🌐 Aplicação Web (PHP)
 
@@ -78,6 +83,7 @@ Simulação da experiência de um e-commerce
 
 Os dados exibidos no site são consumidos diretamente do banco MySQL, alimentado pelo painel administrativo.
 
+
 ⏱️ Contexto do Desenvolvimento
 
 O projeto foi desenvolvido em um prazo de aproximadamente duas semanas, devido a uma reorganização estrutural do curso.
@@ -92,6 +98,7 @@ Uma base sólida para futuras evoluções
 
 Algumas funcionalidades, especialmente no painel administrativo em C#, não foram totalmente finalizadas, o que foi considerado no contexto acadêmico do projeto.
 
+
 ▶️ Como executar o projeto localmente
 
 Instale o XAMPP
@@ -103,6 +110,7 @@ Copie a pasta do projeto para o diretório htdocs
 Importe o banco de dados MySQL utilizando o arquivo disponível no repositório
 
 Acesse a aplicação pelo navegador
+
 
 👥 Equipe
 
